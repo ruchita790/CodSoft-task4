@@ -13,6 +13,6 @@ Ans:
 Instraction:
 
  	1. Copy Full code.
- 	2. Save: Grade.java
- 	3. Compile: javac Grade.java
- 	4. Run: java Grade
+ 	2. Save: Currency.java
+ 	3. Compile: javac Currency.java
+ 	4. Run: java Currency
