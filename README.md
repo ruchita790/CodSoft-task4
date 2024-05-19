@@ -10,6 +10,40 @@ TASK 4: CURRENCY CONVERTER:
 
 Ans:
 
+
+	import java.util.Scanner;
+	class Currency
+	{
+    public static void main(String [] args)
+    {
+       int a;
+       double UK=0.012,inr=83.38, b,sum,c,d;
+       System.out.println("1.India to U.K");
+       System.out.println("2.U.K to India");
+       System.out.println("Choose your option");
+       Scanner A=new Scanner(System.in);
+       a=A.nextInt();
+       if(a==1)
+       {
+         System.out.println("Enter Indian Currency:");
+         c=A.nextDouble();
+        sum=c*UK;
+          System.out.println("U.K Currency:"+sum);
+       
+       }
+       else if(a==2)
+       {
+          System.out.println("Enter U.K Currency:");
+          b=A.nextDouble();
+          sum=b*inr;
+          System.out.println("Indian Currency:"+sum);
+       }
+       else
+       {
+         System.out.println("Choose correct option");
+       }
+    }
+	}
 Instraction:
 
  	1. Copy Full code.
